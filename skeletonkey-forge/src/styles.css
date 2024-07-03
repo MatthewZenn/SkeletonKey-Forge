@@ -1,0 +1,78 @@
+body, html {
+  background-color: white;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#script {
+  position: fixed;
+  resize: none;
+  height: 375px;
+  width: 400px;
+  right: 10px;
+  top: 10px;
+  outline: none;
+  font-family: monospace;
+  font-size: 12pt;
+  overflow-y: scroll;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.inputs {
+  position: fixed;
+  display: block;
+  width: 400px;
+  height: 175px;
+  top: 10px;
+}
+
+input {
+  position: relative;
+  width: 345px;
+  height: 30px;
+  margin-bottom: 20px;
+  left: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  background-color: white;
+}
+
+.buttons {
+  position: fixed;
+  top: 115px;
+}
+
+button {
+  position: relative;
+  width: 120px;
+  height: 25px;
+  margin: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  left: 35px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(239, 241, 245);
+}
+
+#consol {
+  position: fixed;
+  width: 345px;
+  height: 100px;
+  bottom: 10px;
+  left: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+  resize: none;
+  outline: none;
+  overflow: scroll;
+  cursor: default;
+}

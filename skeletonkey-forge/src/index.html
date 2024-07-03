@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tauri App</title>
+    <script type="module" src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="inputs">
+      <input type="text" id="input" placeholder="Input">
+      <input type="text" id="output" placeholder="Output" readonly>
+    </div>
+    <textarea id="script"></textarea>
+    <div class="buttons">
+      <button id="go">Generate Key</button>
+      <button id="clear">Clear</button>
+    </div>
+    <textarea id="consol" readonly></textarea>
+  </body>
+</html>
